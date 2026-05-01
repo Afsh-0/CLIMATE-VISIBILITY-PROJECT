@@ -1,0 +1,9 @@
+input_features:
+  DRYBULBTEMPF: float
+  RelativeHumidity: float
+  WindSpeed: float
+  WindDirection: float
+  SeaLevelPressure: float
+  year: int
+  month: int
+  hour: int

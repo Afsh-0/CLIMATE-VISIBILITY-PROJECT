@@ -1,0 +1,11 @@
+features:
+  - DRYBULBTEMPF
+  - RelativeHumidity
+  - WindSpeed
+  - WindDirection
+  - SeaLevelPressure
+  - year
+  - month
+  - hour
+
+target: VISIBILITY

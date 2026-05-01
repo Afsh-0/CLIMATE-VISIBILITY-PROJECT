@@ -1,0 +1,5 @@
+model:
+  type: RandomForest
+  n_estimators: 120
+  max_depth: 12
+  random_state: 42
