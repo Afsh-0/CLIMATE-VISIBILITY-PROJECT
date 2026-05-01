@@ -1,11 +1,9 @@
 # CLIMATE VISIBILITY PROJECT (End-to-End ML Project)
 
-## 📌 Overview
+## Overview
 This project predicts weather visibility using machine learning based on meteorological features.
 
----
-
-## 🚀 Features
+## Features
 - Data ingestion pipeline
 - Feature engineering
 - Multiple ML models comparison
@@ -13,9 +11,7 @@ This project predicts weather visibility using machine learning based on meteoro
 - Scalable prediction pipeline
 - Production-style project structure
 
----
-
-## 🏗️ Project Structure 
+## Project Structure 
 data/
 notebooks/
 config/
@@ -29,9 +25,7 @@ requirements.txt
 setup.py
 README.md
 
----
-
-## 📊 Input Features
+## Input Features
 
 - DRYBULBTEMPF
 - RelativeHumidity
@@ -42,36 +36,33 @@ README.md
 - month
 - hour
 
----
-
-## 🧠 Machine Learning Models Used
+## Machine Learning Models Used
 - Linear Regression
 - Ridge Regression
 - Decision Tree
 - Random Forest (Best Model)
+- 
 
----
-
-## ⚙️ How to Run This Project
+## How to Run This Project
 
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
 
-2. Train the model
+### 2. Train the model
 python -m src.components.model_trainer
 
-3. Run prediction
+### 3. Run prediction
 python test.py
 
-## 📊 Results
+## Results
 
 - The model was trained and evaluated using multiple regression algorithms.
 - Random Forest performed the best among all models.
 - Final model provides stable predictions for weather visibility.
 - Evaluation was done using R² score on test data.
 
-## 📦 Output
+## Output
 
 The system takes weather parameters as input and predicts visibility as a numeric value.
 
@@ -85,11 +76,11 @@ Input:
 Output:
 - Predicted Visibility: 9.33
 
-## 👨‍💻 Author
+## Author
 
 - Name: Afsha 
 - Role: Data Science & Machine Learning Enthusiast  
 - Focus: End-to-end ML systems and deployment-ready projects
 
-## 🚀 Live Demo
+## Live Demo
 https://climate-visibility-project-d8vsuzvukfehti7wf9pyrg.streamlit.app/
