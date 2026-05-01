@@ -90,3 +90,6 @@ Output:
 - Name: Afsha 
 - Role: Data Science & Machine Learning Enthusiast  
 - Focus: End-to-end ML systems and deployment-ready projects
+
+## 🚀 Live Demo
+https://climate-visibility-project-d8vsuzvukfehti7wf9pyrg.streamlit.app/
