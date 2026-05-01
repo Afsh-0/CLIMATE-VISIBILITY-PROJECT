@@ -45,14 +45,14 @@ README.md
 
 ## How to Run This Project
 
-### 1. Install dependencies
+1. Install dependencies
 ```bash
 pip install -r requirements.txt
 
-### 2. Train the model
+2. Train the model
 python -m src.components.model_trainer
 
-### 3. Run prediction
+3. Run prediction
 python test.py
 
 ## Results
@@ -82,5 +82,6 @@ Output:
 - Role: Data Science & Machine Learning Enthusiast  
 - Focus: End-to-end ML systems and deployment-ready projects
 
-## Live Demo
+
+### Live Demo
 https://climate-visibility-project-d8vsuzvukfehti7wf9pyrg.streamlit.app/
